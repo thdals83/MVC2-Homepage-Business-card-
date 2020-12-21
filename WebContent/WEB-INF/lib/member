@@ -1,0 +1,13 @@
+create table users(
+	id varchar(12),
+	passwd varchar(12),
+	addr varchar(50),
+	age int,
+	email varchar(30),
+	gender char(1),
+	name varchar(12),
+	nation varchar(12),
+	PRIMARY KEY (id)
+);
+insert into users values('java','java','¼­¿ï½Ã',40,'aaa@aaa.com','m','±èÁöÈÆ','´ëÇÑ¹Î±¹');
+commit;
